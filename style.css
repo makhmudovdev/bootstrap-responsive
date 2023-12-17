@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+}
+
+.nav_text{
+    margin-left: 650px;
+}
+
+.btn-cl{
+    width: 400px;
+    height: 48px;
+    font-size: 20px;
+}
+
+.btn-cls{
+    width: 400px;
+    height: 48px;
+    font-size: 20px;
+    margin-left: -145px;
+}
+
+
+
+.one{
+    margin-left: 185px;
+    
+}
+
+.btn-sect3{
+    width: 745px;
+    height: 48px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.texta{
+    margin-left: 400px;
+}
+
+.mtop{
+    margin-top: -25px;
+    line-height: 35px;
+}
+
+.foter_end{
+    margin-left: 490px;
+}
+
+
+/* ------------------------ IPAD 768px --------------------------------*/
+
+@media screen and (max-width: 768px){
+    .section_paling{
+        display: none;
+    }
+
+    .btn-sect3{
+        width: 740px;
+        height: 48px;
+        margin-left: 0px;
+        margin-top: 5px;
+
+    }
+
+    .texts{
+        display: none;
+    }
+
+    .foter_end{
+        margin-left: 280px;
+    }
+
+};
+
+
+
+
+
